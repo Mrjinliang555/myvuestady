@@ -44,7 +44,7 @@ export default new Router({
         component: NewsLists
       },
       {
-        path: '/newsList/detail',
+        path: '/newsList/detail/:id',
         component: NewsListdetail
       },
       ,
@@ -65,5 +65,6 @@ export default new Router({
         path: '/picsList/detail',
         component: PicsListdetail
       },
-  ]
+  ],
+  linkActiveClass: "mui-active"
 })
